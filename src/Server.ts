@@ -4,7 +4,7 @@ import IndexRoute from './routes/IndexRoute'
 
 export class Server {
 
-  private port: number = 80;
+  private port: number = 8031;
   private app: Application
 
   constructor() {
