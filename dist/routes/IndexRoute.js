@@ -8,7 +8,7 @@ class IndexRoute {
         this.routes();
     }
     get(req, resp) {
-        resp.send("Hola mundo");
+        resp.send("Hola mundo!!");
     }
     routes() {
         this.router.route("/").get(this.get);
