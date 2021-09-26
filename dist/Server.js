@@ -18,7 +18,7 @@ const morgan_1 = __importDefault(require("morgan"));
 const IndexRoute_1 = __importDefault(require("./routes/IndexRoute"));
 class Server {
     constructor() {
-        this.port = 80;
+        this.port = 8041;
         this.app = express_1.default();
         this.middlewares();
         this.routes();

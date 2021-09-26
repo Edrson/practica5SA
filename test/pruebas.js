@@ -7,9 +7,9 @@ var assert = require("chai").assert;
 describe("Prueba de funciones aritméticas", function () {
   it("add", function () {
     let a = 6;
-    let b = 2;
-    let result = 8;
-    assert.equal(result, 8);
+    let b = 3;
+    let result = 9;
+    assert.equal(result, 9);
     // expect(result).equal(7);
   });
 });

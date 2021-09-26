@@ -11,7 +11,7 @@ class IndexRoute {
   }
 
   get(req: Request, resp: Response) {
-    resp.send("Hola mundo");
+    resp.send("Hola mundo!");
   }
 
   routes() {
