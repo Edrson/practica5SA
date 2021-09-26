@@ -6,10 +6,10 @@ var assert = require("chai").assert;
 
 describe("Prueba de funciones aritméticas", function () {
   it("add", function () {
-    let a = 5;
+    let a = 6;
     let b = 2;
-    let result = 7;
-    assert.equal(result, 7);
+    let result = 8;
+    assert.equal(result, 8);
     // expect(result).equal(7);
   });
 });
